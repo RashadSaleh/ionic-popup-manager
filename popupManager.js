@@ -3,6 +3,7 @@ app.factory('popupManager', function ($ionicPopup) {
     manager.states = {};
     manager.states.current;
     manager.is_showing_popup = false;
+    
 
     manager.show_popup = function (popup) {
         manager.is_showing_popup = true;
