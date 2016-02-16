@@ -1,7 +1,5 @@
 #Ionic Popup Manager
 
-##MIT license
-
 This popup manager allows you to show popups only when a certain "state" is active. (This is different from the "states" of the $stateProvider). States are defined by you like this:
 ```language-javascript
 popupManager.register_state('state #1');
@@ -35,3 +33,5 @@ popup.variable = $scope //or some over variable.
 ```
 Now you can close the popup with `$scope.popup.close();`
 
+##License
+MIT license.
